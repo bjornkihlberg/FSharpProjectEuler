@@ -1,5 +1,5 @@
 # Project Euler problem 1: Multiples of 3 and 5
-https://projecteuler.net/problem=1
+projecteuler.net/problem=1
 ---
 ___
 ## Solution:
