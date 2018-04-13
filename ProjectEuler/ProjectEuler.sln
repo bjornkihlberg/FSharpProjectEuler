@@ -11,6 +11,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex003_largest_prime_factor"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex004_largest_palindrome_product", "ex004_largest_palindrome_product\ex004_largest_palindrome_product.fsproj", "{EB9D377F-C7F9-4126-9A2F-82587F419405}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex005_smallest_multiple", "ex005_smallest_multiple\ex005_smallest_multiple.fsproj", "{4A9FA756-03BE-4321-A807-84BDEF9D623A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EB9D377F-C7F9-4126-9A2F-82587F419405}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB9D377F-C7F9-4126-9A2F-82587F419405}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB9D377F-C7F9-4126-9A2F-82587F419405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A9FA756-03BE-4321-A807-84BDEF9D623A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9FA756-03BE-4321-A807-84BDEF9D623A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9FA756-03BE-4321-A807-84BDEF9D623A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9FA756-03BE-4321-A807-84BDEF9D623A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
