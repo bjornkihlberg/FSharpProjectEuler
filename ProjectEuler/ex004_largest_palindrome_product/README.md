@@ -30,6 +30,8 @@ let answer = Seq.find isProductOf2_3DigitNumbers2 palindromes
 printfn "answer = %i" answer
 ```
 
+## Walkthrough:
+
 #### Create a lazy sequence of relevant palindromes:
 The palindromes relevant for our solution are the ones smaller than or equal to the product of the two largest three digit numbers; 999 and greater or equal to the product of the smallest three digit numbers: 100. Since the largest palindrome is what we are looking for, we produce them in a sequence from largest to smallest and then filter out the unwanted ones.
 ```fsharp

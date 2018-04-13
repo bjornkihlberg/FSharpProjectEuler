@@ -57,6 +57,9 @@
   <ItemGroup>
     <Compile Include="Program.fs" />
     <Content Include="packages.config" />
+    <Content Include="1000_digit_number.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
