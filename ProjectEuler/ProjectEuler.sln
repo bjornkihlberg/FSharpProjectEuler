@@ -13,6 +13,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex004_largest_palindrome_pr
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex005_smallest_multiple", "ex005_smallest_multiple\ex005_smallest_multiple.fsproj", "{4A9FA756-03BE-4321-A807-84BDEF9D623A}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex006_sum_square_difference", "ex006_sum_square_difference\ex006_sum_square_difference.fsproj", "{299DA28F-D3E4-4B63-AD1F-474B145707BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4A9FA756-03BE-4321-A807-84BDEF9D623A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A9FA756-03BE-4321-A807-84BDEF9D623A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A9FA756-03BE-4321-A807-84BDEF9D623A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299DA28F-D3E4-4B63-AD1F-474B145707BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299DA28F-D3E4-4B63-AD1F-474B145707BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299DA28F-D3E4-4B63-AD1F-474B145707BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299DA28F-D3E4-4B63-AD1F-474B145707BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
