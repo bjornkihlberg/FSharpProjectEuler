@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex002_even_fibonacci_number
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex003_largest_prime_factor", "ex003_largest_prime_factor\ex003_largest_prime_factor.fsproj", "{EDFE1263-9B36-4610-891A-E11ECB75E229}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex004_largest_palindrome_product", "ex004_largest_palindrome_product\ex004_largest_palindrome_product.fsproj", "{EB9D377F-C7F9-4126-9A2F-82587F419405}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EDFE1263-9B36-4610-891A-E11ECB75E229}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDFE1263-9B36-4610-891A-E11ECB75E229}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDFE1263-9B36-4610-891A-E11ECB75E229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9D377F-C7F9-4126-9A2F-82587F419405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9D377F-C7F9-4126-9A2F-82587F419405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9D377F-C7F9-4126-9A2F-82587F419405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9D377F-C7F9-4126-9A2F-82587F419405}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
