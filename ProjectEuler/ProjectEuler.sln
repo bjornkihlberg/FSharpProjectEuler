@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex001_multiples_of_3_and_5"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex002_even_fibonacci_numbers", "ex002_even_fibonacci_numbers\ex002_even_fibonacci_numbers.fsproj", "{83F16FEE-04EB-4B42-B2D2-77064A6A162A}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex003_largest_prime_factor", "ex003_largest_prime_factor\ex003_largest_prime_factor.fsproj", "{EDFE1263-9B36-4610-891A-E11ECB75E229}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{83F16FEE-04EB-4B42-B2D2-77064A6A162A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83F16FEE-04EB-4B42-B2D2-77064A6A162A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83F16FEE-04EB-4B42-B2D2-77064A6A162A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDFE1263-9B36-4610-891A-E11ECB75E229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFE1263-9B36-4610-891A-E11ECB75E229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFE1263-9B36-4610-891A-E11ECB75E229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFE1263-9B36-4610-891A-E11ECB75E229}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
