@@ -17,6 +17,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex006_sum_square_difference
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex007_10001st_prime", "ex007_10001st_prime\ex007_10001st_prime.fsproj", "{94833214-902F-49B0-8A4C-F5367F0BD099}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex008_largest_product_in_a_series", "ex008_largest_product_in_a_series\ex008_largest_product_in_a_series.fsproj", "{A2E95414-5C31-4A6A-8831-FBF3DFD653B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{94833214-902F-49B0-8A4C-F5367F0BD099}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94833214-902F-49B0-8A4C-F5367F0BD099}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94833214-902F-49B0-8A4C-F5367F0BD099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E95414-5C31-4A6A-8831-FBF3DFD653B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E95414-5C31-4A6A-8831-FBF3DFD653B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E95414-5C31-4A6A-8831-FBF3DFD653B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E95414-5C31-4A6A-8831-FBF3DFD653B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
