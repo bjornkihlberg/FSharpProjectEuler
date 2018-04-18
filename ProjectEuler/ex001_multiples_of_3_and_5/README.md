@@ -4,12 +4,15 @@
 ___
 ## Solution:
 ```fsharp
-let ns : int seq = seq { let mutable i = 1 in while true do yield i; i <- i + 1 }
+let ns : int seq = Seq.initInfinite id
 
 let divisibleBy3Or5 (x : int) : bool = x % 3 = 0 || x % 5 = 0
 
-let answer : int = seq { for n in ns do if divisibleBy3Or5 n then yield n }
-                   |> Seq.takeWhile ((>) 1000) |> Seq.sum
+let answer : int =
+    ns
+    |> Seq.filter divisibleBy3Or5
+    |> Seq.takeWhile ((>) 1000)
+    |> Seq.sum
 
 printfn "answer = %i" answer
 ```
@@ -18,7 +21,7 @@ printfn "answer = %i" answer
 
 #### Define a lazy sequence of all natural numbers:
 ```fsharp
-let ns : int seq = seq { let mutable i = 1 in while true do yield i; i <- i + 1 }
+let ns : int seq = Seq.initInfinite id
 ```
 
 #### Define a predicate that tests wether a number is divisible by 3 or 5:
@@ -30,7 +33,8 @@ let divisibleBy3Or5 (x : int) : bool = x % 3 = 0 || x % 5 = 0
 
 Select all natural numbers that are divisible by 3 or 5
 ```fsharp
-seq { for n in ns do if divisibleBy3Or5 n then yield n }
+ns
+|> Seq.filter divisibleBy3Or5
 ```
 
 Then take the numbers that are smaller than 1000
