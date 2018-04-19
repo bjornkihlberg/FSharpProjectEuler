@@ -29,6 +29,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex012_highly_divisible_tria
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex013_large_sum", "ex013_large_sum\ex013_large_sum.fsproj", "{05E77FB5-BF9F-45BC-9ED9-ABC132A538F1}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ex014_longest_collatz_sequence", "ex014_longest_collatz_sequence\ex014_longest_collatz_sequence.fsproj", "{586434AD-DBC3-41EA-A94B-C0B534480971}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{05E77FB5-BF9F-45BC-9ED9-ABC132A538F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05E77FB5-BF9F-45BC-9ED9-ABC132A538F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05E77FB5-BF9F-45BC-9ED9-ABC132A538F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586434AD-DBC3-41EA-A94B-C0B534480971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586434AD-DBC3-41EA-A94B-C0B534480971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586434AD-DBC3-41EA-A94B-C0B534480971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586434AD-DBC3-41EA-A94B-C0B534480971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
