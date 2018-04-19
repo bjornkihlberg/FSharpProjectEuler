@@ -20,6 +20,8 @@ let answer = Seq.find (countDivisors >> (<) 500) triangleNumbers
 printfn "answer = %i" answer
 ```
 
+## Walkthrough:
+
 #### Define a function that counts divisors:
 This is were most of the magic happens so I will go into details how this function works. It is actually important that you make little optimizations otherwise the problem will take too long to solve.
 ```fsharp
